@@ -1,13 +1,11 @@
 ---
-title: "Understanding Gradient Descent"
+title: "Agentes não são uma invenção, são a evolução de uma ideia antiga"
 draft: false
 ShowToc: true
-date: 2024-10-08
+date: 2024-08-10
 tags: ["agents"]
 author: Carlos Lima
 ---
-
-# Agentes não são uma invenção, são a evolução de uma ideia antiga
 
 ## Agentes
 Se há um fato sobre os Agentes, é que eles não são novidade. A própria OpenAI evita utilizar esse termo ao se referir ao ChatGPT, justamente porque ele é reservado para mecanismos verdadeiramente autônomos.
@@ -123,7 +121,7 @@ Como mencionado, além da abordagem apresentada no livro, outras avaliações de
 - Clareza
 - Tom
 - Estilo
-- 
+
 Além disso, seria útil solicitar a um especialista na área para avaliar a aplicação com um fator humano. As lições que ficam são claras: o prompt importa e um bom prompt é fundamental para determinar a qualidade do agente. No final, a avaliação contínua é o que garante o sucesso a longo prazo e a qualidade da aplicação.
 
 ## Estado da Arte dos Agentes de Inteligência Artificial
@@ -164,8 +162,12 @@ Neste texto, foi possível entender o que são Agentes e por que eles não são 
 
 P.S.S Abaixo segue uma lista de referências também gratuitas as quais consumi e posso atestar sobre a sua qualidade e profundidade.
 
-- HuggingFace Course
-- AI Agents in Action by M. Lanhan
-- Advances and Challenges in Foundation Agents
-- AI Engineering by C. Huyen
-- AI Agents FreeCodeCamp
+- Hugging Face. (n.d.). HuggingFace course. Hugging Face. https://huggingface.co/course
+
+- Lanhan, M. (n.d.). AI agents in action. [Online course].
+
+- (n.d.). Advances and challenges in foundation agents. [White paper].
+
+- - Huyen, C. (n.d.). AI engineering. [Online book/course].
+
+- freeCodeCamp. (n.d.). AI agents. freeCodeCamp. https://freecodecamp.org
