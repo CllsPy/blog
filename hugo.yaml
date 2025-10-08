@@ -4,35 +4,112 @@ title: "CLLTorch"
 theme: "PaperMod"
 
 params:
-  defaultTheme: "black"
+  env: production
+  description: "math, ai safety and writing"
+  author: "CLLTorch"
+  
+  # Tema
+  defaultTheme: dark
+  disableThemeToggle: false
+  
+  # UI/UX melhoradas
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # Home Info
   homeInfoParams:
     Title: "Welcome to my blog!"
-    Content: >-
-      math, ai safety and writing
-    Picture: "/img/my-photo.jpg"  # Caminho da foto
-    Contact:
-      - label: "Email"
-        value: "youremail@example.com"
-        url: "mailto:youremail@example.com"
-      - label: "GitHub"
-        value: "CllsPy"
-        url: "https://github.com/CllsPy"
+    Content: |
+      I write about mathematics, artificial intelligence safety, and occasionally share thoughts on writing. 
+      This space is where I explore ideas, document learning, and contribute to conversations about making AI safer.
 
+  # Social Icons
   socialIcons:
-    - name: "github"
+    - name: github
       url: "https://github.com/CllsPy"
+    - name: email
+      url: "mailto:youremail@example.com"
 
+  # Analytics (opcional)
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+
+  # Assets customizados
+  assets:
+    disableHLJS: false
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  # Label (logo/header)
+  label:
+    text: "CLLTorch"
+    icon: "☀"
+    iconHeight: 20
+
+  # Cover image settings
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+
+# Menu
 menu:
   main:
-    - identifier: "home"
-      name: "Home"
-      url: "/"
+    - identifier: home
+      name: Home
+      url: /
       weight: 10
-    - identifier: "posts"
-      name: "Blog"
-      url: "/posts/"
+    - identifier: posts
+      name: Blog
+      url: /posts/
       weight: 20
-    - identifier: "github"
-      name: "GitHub"
-      url: "https://github.com/CllsPy"
+    - identifier: github
+      name: GitHub ↗
+      url: https://github.com/CllsPy
       weight: 30
+
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# Outputs
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    noClasses: false
+    style: monokai
+
+# Privacy
+privacy:
+  youtube:
+    privacyEnhanced: true
