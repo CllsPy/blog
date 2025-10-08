@@ -7,6 +7,7 @@ tags: ["paper", "llms"]
 author: Carlos Lima
 ---
 
+# Explicando o polêmico paper da APPLE
 
 1. **LRMs apresentam limitações** a partir de certas complexidades, assim como os LLMs.  
    Em alguns casos, performam pior que LLMs. É sabido que LRMs por vezes apresentam raciocínio distante da resposta mostrada e que também às vezes “pensam demais” e retornam mais conteúdo que o necessário.
@@ -19,7 +20,6 @@ author: Carlos Lima
    Segundo o trabalho, os mecanismos atuais de avaliação dos modelos capazes de realizar *reasoning* não produzem análises robustas sobre as limitações dos LRMs.  
    Uma das razões é a **contaminação dos dados**, porém o foco da pesquisa **não** é criar um novo *benchmarking*.
 
-<img width="586" height="246" alt="image" src="https://github.com/user-attachments/assets/abbaf24d-93df-423d-a44f-d4ab4abe7f16" />
 
 4. **Solução proposta:**  
    Os autores apresentam os **controllable puzzle environments**, usados anteriormente, e escolhidos aqui apenas para medir as limitações dos *Large Reasoning Models*.
@@ -33,7 +33,7 @@ author: Carlos Lima
 6. **Colapso dos LRMs:**  
    O fato de LRMs colapsarem a partir de certo ponto demonstra uma **limitação de escalabilidade**.
 
-<img width="588" height="296" alt="image" src="https://github.com/user-attachments/assets/69e902b0-ee58-46fe-984a-a2f3f73e6b05" />
+<img width="890" height="545" alt="image" src="https://github.com/user-attachments/assets/6fa4a642-1244-41f2-842e-86ab9bd5592a" />
 
 
 7. **Conclusão:**  
