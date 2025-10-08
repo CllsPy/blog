@@ -1,32 +1,38 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: CLLTorch
-theme: PaperMod
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "CLLTorch"
+theme: "PaperMod"
 
 params:
-  defaultTheme: black
+  defaultTheme: "black"
   homeInfoParams:
     Title: "Welcome to my blog!"
-    Content: >-    
+    Content: >-
       math, ai safety and writing
     Picture: "/img/my-photo.jpg"  # Caminho da foto
-    Contact: 
+    Contact:
       - label: "Email"
         value: "youremail@example.com"
-      - label: "Github"
-        value: "https://github.com/CllsPy"
+        url: "mailto:youremail@example.com"
+      - label: "GitHub"
+        value: "CllsPy"
+        url: "https://github.com/CllsPy"
 
-socialIcons:
-  - name: Github
-    url: https://github.com/CllsPy
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/CllsPy"
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
+    - identifier: "home"
+      name: "Home"
+      url: "/"
       weight: 10
-    - identifier: posts
-      name: Blog
-      url: /posts/
+    - identifier: "posts"
+      name: "Blog"
+      url: "/posts/"
       weight: 20
+    - identifier: "github"
+      name: "GitHub"
+      url: "https://github.com/CllsPy"
+      weight: 30
