@@ -2,7 +2,7 @@
 title: "Agentes não são uma invenção, são a evolução de uma ideia antiga"
 draft: false
 ShowToc: true
-date: 2024-08-10
+date: 2025-08-10
 tags: ["agents"]
 author: Carlos Lima
 ---
