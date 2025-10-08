@@ -164,10 +164,10 @@ P.S.S Abaixo segue uma lista de referências também gratuitas as quais consumi 
 
 - Hugging Face. (n.d.). HuggingFace course. Hugging Face. https://huggingface.co/course
 
-- Lanhan, M. (n.d.). AI agents in action. [Online course].
+- Lanhan, M. (n.d.). AI agents in action. 
 
-- (n.d.). Advances and challenges in foundation agents. [White paper].
+- Advances and challenges in foundation agents. 
 
-- - Huyen, C. (n.d.). AI engineering. [Online book/course].
+- Huyen, C. (n.d.). AI engineering. 
 
 - freeCodeCamp. (n.d.). AI agents. freeCodeCamp. https://freecodecamp.org
