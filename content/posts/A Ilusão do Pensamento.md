@@ -9,6 +9,9 @@ author: Carlos Lima
 
 # Explicando o polêmico paper da APPLE
 
+<img width="880" height="533" alt="Screenshot_1" src="https://github.com/user-attachments/assets/2669f4cb-6381-4b2c-846e-483f412440fd" />
+
+
 1. **LRMs apresentam limitações** a partir de certas complexidades, assim como os LLMs.  
    Em alguns casos, performam pior que LLMs. É sabido que LRMs por vezes apresentam raciocínio distante da resposta mostrada e que também às vezes “pensam demais” e retornam mais conteúdo que o necessário.
 
@@ -32,9 +35,6 @@ author: Carlos Lima
 
 6. **Colapso dos LRMs:**  
    O fato de LRMs colapsarem a partir de certo ponto demonstra uma **limitação de escalabilidade**.
-
-<img width="890" height="545" alt="image" src="https://github.com/user-attachments/assets/6fa4a642-1244-41f2-842e-86ab9bd5592a" />
-
 
 7. **Conclusão:**  
    Apesar das limitações do trabalho, os autores demonstram — através dos *controllable puzzle environments* — que LRMs possuem **limites em sua escalabilidade**, colapsando à medida que a complexidade das tarefas aumenta.  
