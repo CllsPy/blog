@@ -1,0 +1,238 @@
+/* Custom CSS para estilo minimalista inspirado no Lil's Log */
+
+:root {
+    --gap: 24px;
+    --content-gap: 40px;
+    --nav-width: 1024px;
+    --main-width: 680px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: #0a0a0a;
+    --entry: #0a0a0a;
+    --primary: #e8e8e8;
+    --secondary: #a0a0a0;
+    --tertiary: #1f1f1f;
+    --content: #e8e8e8;
+    --hljs-bg: #1f1f1f;
+    --code-bg: #1f1f1f;
+    --border: #1f1f1f;
+    --accent: #60a5fa;
+}
+
+/* Tipografia melhorada */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    background: var(--theme);
+    color: var(--primary);
+}
+
+/* Container principal */
+.main {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 80px var(--gap);
+}
+
+/* Header simplificado */
+.nav {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 60px var(--gap) 40px;
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav a {
+    font-size: 15px;
+    color: var(--secondary);
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: var(--primary);
+}
+
+/* Home Info melhorado */
+.home-info {
+    margin-bottom: 80px;
+}
+
+.home-info h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+    line-height: 1.1;
+}
+
+.home-info .entry-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--primary);
+    max-width: 580px;
+}
+
+/* Lista de posts melhorada */
+.post-entry {
+    padding: 0;
+    margin-bottom: 40px;
+    border: none;
+    background: transparent;
+    transition: transform 0.2s ease;
+}
+
+.post-entry:hover {
+    transform: translateX(4px);
+    background: transparent;
+}
+
+.post-entry .entry-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.post-entry:hover .entry-header h2 {
+    color: var(--accent);
+}
+
+.post-entry .entry-content {
+    font-size: 15px;
+    color: var(--secondary);
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.post-entry .entry-footer {
+    font-size: 14px;
+    color: var(--secondary);
+    margin-bottom: 8px;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Social Icons melhorados */
+.social-icons {
+    display: flex;
+    gap: 24px;
+    margin: 48px 0 80px;
+}
+
+.social-icons a {
+    color: var(--secondary);
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+    color: var(--accent);
+}
+
+/* Footer simplificado */
+.footer {
+    max-width: var(--main-width);
+    margin: 100px auto 0;
+    padding: 60px var(--gap) 40px;
+    border-top: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+/* Títulos de seção */
+.post-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* Conteúdo do post */
+.post-content {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.post-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 48px 0 16px;
+}
+
+.post-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 32px 0 12px;
+}
+
+.post-content p {
+    margin-bottom: 20px;
+}
+
+.post-content a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.post-content a:hover {
+    border-bottom-color: var(--accent);
+}
+
+/* Code blocks */
+.post-content pre {
+    background: var(--hljs-bg);
+    border-radius: 8px;
+    padding: 16px;
+    overflow-x: auto;
+    margin: 24px 0;
+}
+
+.post-content code {
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+    font-size: 14px;
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Remover elementos desnecessários */
+.breadcrumbs {
+    display: none;
+}
+
+/* Mobile responsivo */
+@media (max-width: 640px) {
+    .nav {
+        padding: 40px var(--gap) 30px;
+    }
+    
+    .main {
+        padding: 60px var(--gap);
+    }
+    
+    .home-info h1 {
+        font-size: 36px;
+    }
+    
+    .home-info .entry-content {
+        font-size: 16px;
+    }
+    
+    .post-header h1 {
+        font-size: 32px;
+    }
+    
+    .post-content {
+        font-size: 16px;
+    }
+}
