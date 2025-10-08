@@ -1,5 +1,5 @@
 ---
-title: "O Excesso de Produção e Suas Consequências: Uma Reflexão Necessária"
+title: "A Ilusão do Pensamento"
 draft: false
 ShowToc: true
 date: 2025-09-08
