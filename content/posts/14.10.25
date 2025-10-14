@@ -1,0 +1,55 @@
+---
+title: "DeepSeek-R1"
+draft: false
+ShowToc: true
+date: 2025-01-27
+tags: ["reasoninng", "llms"]
+author: Carlos Lima
+---
+
+Olá pessoal, não iria escrever mais essa semana, mas resolvi compartilhar com vocês para lhes manter informados (aqueles que optaram por seguir na carreira com IA).
+
+Para o caso de você não estar ciente, o DeepSeek-R1 é um novo modelo generativo desenvolvido por uma startup chinesa. Além de representar um novo modelo no mercado, os criadores afirmam que se trata do mais novo rival do ChatGPT. Mas não de qualquer rival.
+![](https://hermes.dio.me/assets/articles/12d89d22-4e49-47cd-a1a5-48a170445adc.png)
+
+Como costumo comentar, é fundamental entender a matemática envolvida na Inteligência Artificial, porque desta forma é possível entender o que significa pensar. 
+Desde ponto de vista, o modelo 4-omni disponível ao usuário pela Openai, não é capaz de pensar. Chamamos essa habilidade de reasoning, e você teria que desembolsar 
+algumas centenas de dólares (para ter acesso aos modelos com essas habilidades). O DeepSeek-R1, surge como um rival, Open Source, e que possui essa habilidade. 
+Isto coloca foca na corrida em busca do melhor modelo possível (AGI), em especial pela forma como a Startup conseguiu esses resultados, que foram debatidos 
+em um paper referente ao novo modelo, DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
+
+![](https://hermes.dio.me/assets/articles/174b2c2f-1b0b-4d16-9405-d31c78bf488d.png)
+
+Antes de debatermos o que o paper demonstra e porque isso é importante, você precisa entender algo. Como o ChatGPT foi treinado. 
+Imagine uma criança que recebeu a melhor educação que o mundo pode pagar, ela entrou em contato com artigos, conversa, livros, blogs, depois foi testada nesse conhecimento sistematicamente, 
+depois deste conhecimento prévio ela recebeu instruções específicas de como conversar com humanos (por exemplo). Até que finalmente, os humanos começam a avaliar as respostas delas dando feedback
+para boas respostas e ajudando quando as respostas não são tão boas. Assim o GPT foi treinado, isto assegura que ele é um generalista (uma vez que ele teve contato com uma infinidade de informações). 
+Ele não pensa de fato, é como mímica, ele viu tantas vezes que sabe a resposta (quase que automaticamente). Mas e o DeepSeek-R1?
+
+![](https://hermes.dio.me/assets/articles/30ba08ce-f66b-40fd-a74e-40ef49a99d20.png)
+
+O R1 é para Reasoning, seria o equivalente às máquinas ao que chamamos de raciocínio. Imagine o DeepSeek como outra criança, mas que ao invés de receber essa educação ‘formal’, 
+aprendeu fazendo! Ele recebeu algumas instruções, mas quando você solicita algo, ele começa a pensar, como alguém tentando montar um quebra cabeça. Então por exemplo, 
+se você perguntar se 0.9 é maior que 0.011 ele começará a fazer cálculos e concluir que sim, 0.9 é maior!
+
+![](https://hermes.dio.me/assets/articles/c5b181be-2458-4cf7-b35b-2499a933e993.jpg)
+
+Resultado do DeepSeek-R1 em relação a outros LLMs (img source: https://medium.com/@suneelkphd/breaking-down-the-benchmarks-how-does-deepseek-v3-stack-up-3e133e3f6807)
+
+Porque isso importa? Uma vez que no papel eles explicam como isso foi feito, outros pesquisadores podem reproduzir esses textos e 
+produzir modelos ainda mais eficientes, agora uma tecnologia restrita está acessível para os demais praticamente de Machine Learning.
+Isto é incrível, porque a Startup conseguiu este feito com menos recursos que a grandiosa Openai.
+
+Com os avanços descobertos após a publicação do artigo, descobrimos que o DeepSeek-R1 com menos recursos superou o GPT em algumas tarefas, 
+demonstrando que o método que eles usaram pode ser mais eficiente e mais barato. Além claro, de pressionar a Openai a rever suas políticas em relação aos 
+valores dos seus modelos generativos. Esperamos que no futuro treinar o novo modelo seja uma tarefa trivial, como a programação é para muitos e este trabalho é um pequeno passo nessa direção.
+
+### TL;DR (Muito Longo Para Ler)
+O DeepSeek-R1 apresenta alguns resultados superiores a modelos generativos de empresas com mais recursos (como a Openai)
+Eles criaram um método novo para treinar o modelo que é superior a abordagem Atual
+Diferente do GPT que apenas faz mímica com base no que aprendeu o DeepSeek-R1 pensa para responder as tarefas.
+
+### Nota do autor
+Seja paciente sobre possíveis erros gramaticais, a julgar pela recorrência deles você sabe o quanto eu usei o ChatGPT ou qualquer outra ferramenta para escrever o mesmo.
+Este trabalho levou tempo para ser pesquisado e filtrado, escrever é uma tarefa nobre e árdua. Se sentir confortável, deixe seu feedback (construtivo).
+Em caso de dúvidas, deixe nos comentários abaixo (farei o possível para responder a tempo).
